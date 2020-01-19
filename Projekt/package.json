@@ -1,0 +1,36 @@
+{
+  "name": "not-so-social-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "cd client && react-scripts start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "nyc mocha --exit",
+    "coverage": "nyc --reporter html --reporter text npm test"
+  },
+  "author": "Andrei Moga & Alexander Carnklev",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.3",
+    "expect": "^24.9.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5",
+    "request": "^2.88.0",
+    "should": "^13.2.3",
+    "superagent": "^5.1.0",
+    "webpack": "4.41.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4",
+    "nyc": "^14.1.1"
+  }
+}
