@@ -1,0 +1,11 @@
+Fullstack MERN application. It is a social website where you can register, log in
+and find other people. You can add friends and post on each others profiles.
+To run the API use:
+> npm run server
+The server will run on localhost:5000
+To run the client use:
+> npm run client
+The client will run on localhost:3000 and the browser will open automatically.
+It might take a while longer the first time.
+The demo for this page and code can be found here(In Swedish):
+https://www.youtube.com/watch?v=WsexMwT_y1o&t=1s

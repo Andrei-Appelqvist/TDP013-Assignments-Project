@@ -1,0 +1,9 @@
+A mix of lab 1 and 2. It works exactly the same as lab 1 but it now has a backend where it will store everything
+so nothing disappears when you refresh.
+
+Run by starting mongoDB:
+> sudo service mogod start
+And running the app:
+> node lib/ex.js
+It will now run on localhost:3000
+Tests can be run with nyc mocha test

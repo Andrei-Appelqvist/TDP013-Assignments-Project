@@ -1,7 +1,10 @@
 from selenium import webdriver
+import os
 
 browser = webdriver.Firefox()
-browser.get('file:///home/andmo435/Desktop/TDP013/gittat/Labb 1/index.html')
+
+html_file = os.getcwd() + "//" + "index.html"
+browser.get("file:///" + html_file)
 
 #assert 'hej' in browser.title
 text = browser.find_element_by_id('text-box')

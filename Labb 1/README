@@ -1,0 +1,4 @@
+Simple site where you can write messages, send them down and read them. First part
+of the lab. Messages are not being stored anywhere and will disapear when refreshed. Just click index.html to try.
+You can also do the selenium test by running:
+> python3 tests.py
